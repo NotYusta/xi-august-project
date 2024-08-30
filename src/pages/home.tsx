@@ -26,7 +26,7 @@ const Home = () => {
           id="about"
           className="flex flex-col tracking-wider py-10 overflow-hidden"
         >
-          <div className="flex flex-col text-3xl md:text-5xl font-bold text-center mx-auto animate-fadeup-1.5s">
+          <div className="flex flex-col text-3xl px-5 md:text-5xl md:px-0 font-bold text-center mx-auto animate-fadeup-1.5s">
             <h1 className="text-blue-500">Raznar Lab</h1>
             <h2 className="text-white">Streamline Your Workflow with us!</h2>
             <div className="block py-4">
