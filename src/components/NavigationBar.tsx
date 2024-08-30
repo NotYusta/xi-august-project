@@ -49,7 +49,10 @@ const NavigationBar = () => {
               <Link
                 className="transition-all duration-300 hover:text-blue-400"
                 to="#about"
-                onClick={() => setMobileOpen(false)}
+                onClick={() => {
+                  setMobileOpen(false);
+                  window.location.reload();
+                }}
               >
                 About
               </Link>
@@ -58,7 +61,10 @@ const NavigationBar = () => {
               <Link
                 className="transition-all duration-300 hover:text-blue-400"
                 to="#brands"
-                onClick={() => setMobileOpen(false)}
+                onClick={() => {
+                  setMobileOpen(false);
+                  window.location.reload();
+                }}
               >
                 Brands
               </Link>
@@ -67,7 +73,10 @@ const NavigationBar = () => {
               <Link
                 className="transition-all duration-300 hover:text-blue-400"
                 to="#reviews"
-                onClick={() => setMobileOpen(false)}
+                onClick={() => {
+                  setMobileOpen(false);
+                  window.location.reload();
+                }}
               >
                 Reviews
               </Link>
@@ -75,9 +84,7 @@ const NavigationBar = () => {
           </ul>
 
           <div className="flex">
-            <Link
-              to={`https://chat.whatsapp.com/BWhqTp0MWgZCjwvGhJrWJG`}
-            >
+            <Link to={`https://chat.whatsapp.com/BWhqTp0MWgZCjwvGhJrWJG`}>
               <button className="transition-all duration-300 text-white font-semibold py-1 px-8 md:py-2 md:px-12 bg-blue-500 rounded-3xl hover:text-blue-500 hover:bg-white">
                 Contact
               </button>
