@@ -26,7 +26,7 @@ const Home = () => {
           id="about"
           className="flex flex-col tracking-wider py-10 overflow-hidden"
         >
-          <div className="flex flex-col text-5xl font-bold text-center mx-auto animate-fadeup-1.5s">
+          <div className="flex flex-col text-3xl md:text-5xl font-bold text-center mx-auto animate-fadeup-1.5s">
             <h1 className="text-blue-500">Raznar Lab</h1>
             <h2 className="text-white">Streamline Your Workflow with us!</h2>
             <div className="block py-4">
@@ -45,21 +45,21 @@ const Home = () => {
               <img
                 src={CastleIsland}
                 alt=""
-                className="transition-all duration-300 h-64 border border-sky-500 border-4 scale-95 hover:scale-100"
+                className="object-cover transition-all duration-300 h-64 border border-sky-500 border-4 scale-95 hover:scale-100"
               />
               <img
                 src={FarmerVillage}
                 alt=""
-                className="transition-all duration-300 h-64 border border-sky-500 border-4 scale-95 hover:scale-100"
+                className="object-cover transition-all duration-300 h-64 border border-sky-500 border-4 scale-95 hover:scale-100"
               />
               <img
                 src={SmallJapanese}
                 alt=""
-                className="transition-all duration-300 h-64 border border-sky-500 border-4 scale-95 hover:scale-100"
+                className="object-cover transition-all duration-300 h-64 border border-sky-500 border-4 scale-95 hover:scale-100"
               />
             </div>
-            <div id="about-description" className="py-6 animate-fadein-1.5s">
-              <h2 className="text-center text-white font-semibold text-2xl">
+            <div id="about-description" className="py-6 animate-fadeup-1.5s">
+              <h2 className="text-center text-white font-semibold text-lg md:text-2xl">
                 We offer a range of exclusive services designed to elevate your
                 business and streamline your operations. Our services include
                 cutting-edge cloud solutions, custom software development, and
@@ -73,7 +73,7 @@ const Home = () => {
               Why Us?
             </h2>
             <div className="flex flex-wrap justify-center py-10 gap-10 animate-fadeup-1.5s">
-              <div className="transition-all duration-300 flex flex-col bg-slate-800 p-5 rounded-xl w-[420px] border-transparent border-2 hover:border-slate-600 hover:scale-105">
+              <div className="transition-all duration-300 flex flex-col bg-slate-800 p-5 rounded-xl md:w-[420px] border-transparent border-2 hover:border-slate-600 scale-90 md:scale-100 md:hover:scale-105 hover:scale-95">
                 <FontAwesomeIcon
                   icon={faStar}
                   className="text-blue-600 py-16 h-20"
@@ -90,7 +90,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="transition-all duration-300 flex flex-col bg-slate-800 p-5 rounded-xl w-[420px] border-transparent border-2 hover:border-slate-600 hover:scale-105">
+              <div className="transition-all duration-300 flex flex-col bg-slate-800 p-5 rounded-xl md:w-[420px] border-transparent border-2 hover:border-slate-600 scale-90 md:scale-100 md:hover:scale-105 hover:scale-95">
                 <FontAwesomeIcon
                   icon={faStar}
                   className="text-blue-600 py-16 h-20"
@@ -106,7 +106,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="transition-all duration-300 flex flex-col bg-slate-800 p-5 rounded-xl w-[420px] border-transparent border-2 hover:border-slate-600 hover:scale-105">
+              <div className="transition-all duration-300 flex flex-col bg-slate-800 p-5 rounded-xl md:w-[420px] border-transparent border-2 hover:border-slate-600 scale-90 md:scale-100 md:hover:scale-105 hover:scale-95">
                 <FontAwesomeIcon
                   icon={faStar}
                   className="text-blue-600 py-16 h-20"
@@ -128,7 +128,7 @@ const Home = () => {
           <h2 className="text-center text-white font-bold text-5xl animate-fadeup-1.5s">
             Customer Brands
           </h2>
-          <div className="flex flex-wrap justify-center py-20 gap-10 animate-fadeup-1.5s">
+          <div className="flex flex-wrap justify-center px-8 md:px-0 py-20 gap-10 animate-fadeup-1.5s">
             <img src={GoogleBanner} alt="" className="h-28" />
             <img src={MicrosoftBanner} alt="" className="h-28" />
             <img src={MojangBanner} alt="" className="h-28" />
@@ -141,7 +141,7 @@ const Home = () => {
             Reviews
           </h2>
           <div className="flex justify-center py-20 gap-10 animate-fadeup-1.5s">
-            <div className="flex flex-col max-w-[42.5%]">
+            <div className="flex flex-col px-8 md:px-0 md:max-w-[42.5%]">
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeftAlt}
@@ -152,10 +152,9 @@ const Home = () => {
                 Raznar Lab have been an amazing company to work with. My
                 interactions with everyone at Raznar Lab have always felt
                 personal, and tailored to our exact needs. The services provided
-                to us by Raznar Lab allowed more time for our team to focus
-                on our priorities, whilst Raznar Lab filled in the gaps to
-                allow us to create immersive work experiences for our
-                audience.
+                to us by Raznar Lab allowed more time for our team to focus on
+                our priorities, whilst Raznar Lab filled in the gaps to allow us
+                to create immersive work experiences for our audience.
               </p>
               <div className="flex justify-end">
                 <FontAwesomeIcon
