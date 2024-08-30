@@ -46,35 +46,37 @@ const NavigationBar = () => {
 
           <ul className="flex flex-col py-20 gap-5 md:gap-0 md:py-0 md:flex-row justify-between items-center text-white font-bold capitalize md:w-[40%]">
             <li>
-              <a
+              <Link
                 className="transition-all duration-300 hover:text-blue-400"
-                href="#about"
+                to="#about"
+                onClick={() => setMobileOpen(false)}
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="transition-all duration-300 hover:text-blue-400"
-                href="#brands"
+                to="#brands"
+                onClick={() => setMobileOpen(false)}
               >
                 Brands
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="transition-all duration-300 hover:text-blue-400"
-                href="#reviews"
+                to="#reviews"
+                onClick={() => setMobileOpen(false)}
               >
                 Reviews
-              </a>
+              </Link>
             </li>
           </ul>
 
           <div className="flex">
             <Link
               to={`https://chat.whatsapp.com/BWhqTp0MWgZCjwvGhJrWJG`}
-              target="_blank"
             >
               <button className="transition-all duration-300 text-white font-semibold py-1 px-8 md:py-2 md:px-12 bg-blue-500 rounded-3xl hover:text-blue-500 hover:bg-white">
                 Contact
