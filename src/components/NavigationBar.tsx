@@ -23,7 +23,7 @@ const NavigationBar = () => {
         </button>
       )}
       <nav
-        className={`w-full bg-gray-900 md:text-2xl md:px-4  ${
+        className={`w-full bg-gray-900 text-2xl md:px-4  ${
           isMobileOpen ? "fixed min-h-screen z-[1]" : "hidden"
         } md:block`}
       >
