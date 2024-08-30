@@ -29,7 +29,7 @@ const NavigationBar = () => {
       >
         <div className="py-5 flex flex-col justify-between mx-auto items-center lg:w-[60%] md:flex-row ">
           <div className="flex items-center justify-between w-full px-4 md:w-auto">
-            <img src={Banner} className="h-16" />
+            <img src={Banner} className="h-16 md:h-12" />
             {isMobileOpen && (
               <button
                 className="md:hidden"
